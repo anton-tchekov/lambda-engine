@@ -1,0 +1,45 @@
+#ifndef __TERMINAL_H__
+#define __TERMINAL_H__
+
+#ifdef COLOR_TERMINAL
+
+#define TERMINAL_COLOR_RED          "\033[0;31m"
+#define TERMINAL_COLOR_GREEN        "\033[0;32m"
+#define TERMINAL_COLOR_YELLOW       "\033[0;33m"
+#define TERMINAL_COLOR_BLUE         "\033[0;34m"
+#define TERMINAL_COLOR_MAGENTA      "\033[0;35m"
+#define TERMINAL_COLOR_CYAN         "\033[0;36m"
+#define TERMINAL_COLOR_WHITE        "\033[0;37m"
+#define TERMINAL_COLOR_RESET        "\033[0m"
+
+#define TERMINAL_COLOR_BOLD_RED     "\033[1;31m"
+#define TERMINAL_COLOR_BOLD_GREEN   "\033[1;32m"
+#define TERMINAL_COLOR_BOLD_YELLOW  "\033[1;33m"
+#define TERMINAL_COLOR_BOLD_BLUE    "\033[1;34m"
+#define TERMINAL_COLOR_BOLD_MAGENTA "\033[1;35m"
+#define TERMINAL_COLOR_BOLD_CYAN    "\033[1;36m"
+#define TERMINAL_COLOR_BOLD_WHITE   "\033[1;37m"
+
+#else
+
+#define TERMINAL_COLOR_RED          ""
+#define TERMINAL_COLOR_GREEN        ""
+#define TERMINAL_COLOR_YELLOW       ""
+#define TERMINAL_COLOR_BLUE         ""
+#define TERMINAL_COLOR_MAGENTA      ""
+#define TERMINAL_COLOR_CYAN         ""
+#define TERMINAL_COLOR_WHITE        ""
+#define TERMINAL_COLOR_RESET        ""
+
+#define TERMINAL_COLOR_BOLD_RED     ""
+#define TERMINAL_COLOR_BOLD_GREEN   ""
+#define TERMINAL_COLOR_BOLD_YELLOW  ""
+#define TERMINAL_COLOR_BOLD_BLUE    ""
+#define TERMINAL_COLOR_BOLD_MAGENTA ""
+#define TERMINAL_COLOR_BOLD_CYAN    ""
+#define TERMINAL_COLOR_BOLD_WHITE   ""
+
+#endif
+
+#endif
+
