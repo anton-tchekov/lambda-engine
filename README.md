@@ -1,6 +1,6 @@
 # lambda-engine
 OpenGL Game Engine written in C (Version 1.5)
 
-See https://antoninformatik.111mb.de/gamedev
+See https://antoninformatik.net/gamedev/
 
-and https://antoninformatik.111mb.de/protocol7
+and https://antoninformatik.net/protocol7/
